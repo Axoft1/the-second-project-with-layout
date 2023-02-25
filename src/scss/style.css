@@ -1,0 +1,24 @@
+._conteiner {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1932px) {
+  ._conteiner {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  ._conteiner {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  ._conteiner {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

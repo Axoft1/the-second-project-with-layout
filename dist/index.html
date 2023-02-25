@@ -5,21 +5,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221101202620">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230218131630">
+    <title>Conquest</title>
 </head>
-<body>
+<body class="wrapper">
+    <div class="_conteiner">
     <header class="header">
-  <div class="header_content _conteiner">
-    <div class="header_menu menu">
-      Новый проект!!
+  <div class="header__content _conteiner">
+    <div class="header__menu menu">
+      <div class="menu__icon icon_menu">
+        <a href=""><picture><source srcset="./img/Ellipse.webp" type="image/webp"><img src="../img/Ellipse.png" alt="" /></picture></a>
+        <a href=""><picture><source srcset="./img/logoText.webp" type="image/webp"><img src="../img/logoText.png" alt="" /></picture></a>
+      </div>
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li><a href="#" class="menu__link">Каталог</a></li>
+          <li><a href="#" class="menu__link">Акции</a></li>
+          <li><a href="#" class="menu__link">Доставка</a></li>
+          <li><a href="#" class="menu__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="menu__tool">
+        <a href="#" class="menu__search">
+          <img src="./img/search.svg" alt="" />
+        </a>
+        <a href="#" class="menu__likes"
+          ><img src="./img/likes.svg" alt=""
+        /></a>
+        <a href="#" class="menu__basket"
+          ><img src="./img/basket.svg" alt=""
+        /></a>
+      </div>
     </div>
   </div>
 </header>
 
-    <main>
-    </main>
-    <footer></footer>
-    <script src="js/app.min.js?_v=20221101202620"></script>
+    <main class="page">
+  <section class="info">
+    <div class="info__top">
+      <div>
+        <span class="feature"></span>
+        <h3>Весна/Лето 2019</h3>
+      </div>
+      <h4>Коллекция</h4>
+      <p>
+        Швейцарские часы в наличии в Москве <br />и с доставкой по всему миру
+      </p>
+      <button class="info__btn">СМОТРЕТЬ КАТАЛОГ</button>
+    </div>
+    <div class="info__watch">
+      <div class="info__background"></div>
+      <div class="info__price">
+        <span class="feature feature_price"></span>
+        <p>22 00</p>
+      </div>
+      <div class="info__img">
+        <picture><source srcset="./img/watch_main.webp" type="image/webp"><img src="../img/watch_main.png" alt="" /></picture>
+      </div>
+      <div class="info__size">
+        <span class="feature feature_price"></span>
+        <p>28 мм диаметр</p>
+      </div>
+    </div>
+  </section>
+  <article class="popular">
+    <div class="popular__header">
+      <h2>Популярные модели</h2>
+      <div class="popular__all">
+        <a href="#">Смотреть все</a>
+        <span class="feature feature_all"></span>
+      </div>
+    </div>
+    <div class="popular__cards">
+      <div class="popular__card">
+        <div class="popular__card_title">
+          <h5>RADO</h5>
+          <p>65 300</p>
+        </div>
+        <div class="popular__card_img">
+          <picture><source srcset="./img/watch_1.webp" type="image/webp"><img src="../img/watch_1.png" alt="" /></picture>
+        </div>
+        <a href="#" class="popular__card_description">
+          <span class="feature"></span>
+          <p>Подробнее</p>
+        </a>
+      </div>
+      <div class="popular__card">
+        <div class="popular__card_title">
+          <h5>RADO</h5>
+          <p>65 300</p>
+        </div>
+        <div class="popular__card_img">
+          <picture><source srcset="./img/watch_2.webp" type="image/webp"><img src="../img/watch_2.png" alt="" /></picture>
+        </div>
+        <a href="#" class="popular__card_description">
+          <span class="feature"></span>
+          <p>Подробнее</p>
+        </a>
+      </div>
+      <div class="popular__card">
+        <div class="popular__card_title">
+          <h5>RADO</h5>
+          <p>65 300</p>
+        </div>
+        <div class="popular__card_img">
+          <picture><source srcset="./img/watch_3.webp" type="image/webp"><img src="../img/watch_3.png" alt="" /></picture>
+        </div>
+        <a href="#" class="popular__card_description">
+          <span class="feature"></span>
+          <p>Подробнее</p>
+        </a>
+      </div>
+    </div>
+  </article>
+  <article class="carousel">
+    <div class="carusel__item">
+      <div class="carusel__item_img">
+        <picture><source srcset="./img/photo_banner.webp" type="image/webp"><img src="../img/photo_banner.jpg" alt="" /></picture>
+      </div>
+      <div class="carusel__item_description">
+        <h2>Подлинное качество</h2>
+        <p>
+          Все часы производятся в Швейцарии и имеют <br />сертификаты качества.
+          Настоящие швейцарские<br />
+          часы — это предмет гордости и престижа.
+        </p>
+        <button class="carusel__item_btn">СМОТРЕТЬ КАТАЛОГ</button>
+      </div>
+    </div>
+    <div class="carusel__background">
+    </div>
+  </article>
+  <article class="news">
+    <div class="news__info">
+      <h2>Следите за нашими новостями</h2>
+      <p>
+        Подписывайтесь на <a href="#"><b>@conquest_watch</b></a> в соцсетях
+        <br />и узнавайте о новинках и акциях первыми.
+      </p>
+      <div class="news__socialNetwork">
+        <img src="./img/instagram_icon.svg" alt="" />
+        <img src="./img/facebook_icon.svg" alt="" />
+        <img src="./img/twitter_icon.svg" alt="" />
+      </div>
+    </div>
+    <div class="news__img">
+      <div class="news__img_left">
+        <div><picture><source srcset="./img/photo_1.webp" type="image/webp"><img src="./img/photo_1.png" alt="" /></picture></div>
+        <div><picture><source srcset="./img/photo_2.webp" type="image/webp"><img src="./img/photo_2.png" alt="" /></picture></div>
+      </div>
+      <div class="news__img_right">
+        <picture><source srcset="./img/photo_3.webp" type="image/webp"><img src="./img/photo_3.png" alt="" /></picture>
+      </div>
+    </div>
+  </article>
+</main>
+
+    <footer class="footer">
+  <div class="footer__logo">
+    <header>
+      <a href="#"><picture><source srcset="./img/Ellipse2.webp" type="image/webp"><img src="./img/Ellipse2.png" alt="" /></picture></a>
+      <a href="#"><picture><source srcset="./img/CONQUEST.webp" type="image/webp"><img src="./img/CONQUEST.png" alt="" /></picture></a>
+    </header>
+    <p>8 (499) 450-47-97</p>
+    <a href="#">info@conquest.watch.ru</a>
+  </div>
+  <div class="footer__company">
+    <header>О КОМПАНИИ</header>
+    <p>Наши магазины</p>
+    <p>Вакансии</p>
+    <p>Сертификаты</p>
+    <p>Отзывы</p>
+  </div>
+  <div class="footer__client">
+    <header>ПОКУПЯТЕЛЯМ</header>
+    <p>Каталог товаров</p>
+    <p>Как заказать?</p>
+    <p>FAQ</p>
+    <p>Корпоративным клиентам</p>
+  </div>
+  <div class="footer__pay">
+    <header>ОПЛАТА И ДОСТАВКА</header>
+    <p>Способы оплаты</p>
+    <p>Время доставки</p>
+    <p>Гарантии и ремонт</p>
+    <p>Возврат и компенсация</p>
+  </div>
+</footer>
+
+    </div>
+    <script src="js/app.min.js?_v=20230218131630"></script>
 </body>
 </html>

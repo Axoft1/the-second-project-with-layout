@@ -1,0 +1,34 @@
+.header__menu {
+  background-color: #fdfdfb;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  padding: calc(36px + (36 - 36) * ((100vw - 320px) / (1243 - 320)));
+  .menu__body {
+    justify-content: space-around;
+    .menu__list {
+      display: flex;
+      gap: calc(5px + (60 - 5) * ((100vw - 320px) / (1243 - 320)));
+      a {
+        transition: all 0.2s;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #555248;
+      }
+      a:hover {
+        transition: all 0.2s;
+        color: #555248b2;
+      }
+    }
+  }
+  .menu__tool {
+    display: flex;
+    gap: calc(0px + (10 - 0) * ((100vw - 320px) / (1243 - 320)));
+    a {
+      margin: 10%;
+    }
+  }
+}
