@@ -230,6 +230,12 @@
       background: #f7f5ef;
       width: 35%;
       display: flex;
+      @media (max-width: ($md3+px)) {
+        margin: 0 10px;
+      }
+      @media (max-width: ($md2+px)) {
+        margin: 0 20px;
+      }
       .carusel__item_img {
         margin-left: calc(2px + (70 - 2) * ((100vw - 320px) / (1243 - 320)));
         z-index: 1;
@@ -244,7 +250,7 @@
           @media (max-width: ($md2+px)) {
             margin-top: 10px;
             width: 400px;
-            height: 330px;
+            height: 300px;
           }
         }
       }
@@ -263,9 +269,11 @@
           margin-bottom: 38px;
           @media (max-width: ($md3+px)) {
             margin-top: 30px;
+            padding: 0;
           }
           @media (max-width: ($md2+px)) {
             margin-top: 40px;
+            padding: 0 90px 0 0;
           }
         }
         p {
@@ -274,6 +282,13 @@
           font-size: 16px;
           line-height: 150%;
           color: #444240;
+          @media (max-width: ($md3+px)) {
+            padding: 0;
+          }
+          @media (max-width: ($md2+px)) {
+            padding: 0 170px 0 0;
+            font-size: 14px;
+          }
         }
         .carusel__item_btn {
           margin-top: 45px;
@@ -300,14 +315,27 @@
   .news {
     display: flex;
     margin-top: 80px;
+
     &__info {
       margin: auto;
+      @media (max-width: ($md3+px)) {
+        margin: 0 10px;
+      }
+      @media (max-width: ($md2+px)) {
+        margin: 0 10px;
+      }
       h2 {
         font-family: "PlayfairDisplay";
         font-weight: 400;
         font-size: 32px;
         line-height: 43px;
         color: #1b1a17;
+        @media (max-width: ($md3+px)) {
+          font-size: 28px;
+        }
+        @media (max-width: ($md2+px)) {
+          font-size: 30px;
+        }
       }
       p {
         margin-top: 40px;
@@ -316,6 +344,12 @@
         font-size: 16px;
         line-height: 27px;
         color: #444240;
+        @media (max-width: ($md3+px)) {
+          font-size: 14px;
+        }
+        @media (max-width: ($md2+px)) {
+          font-size: 14px;
+        }
         a {
           color: #1b1a17;
         }
@@ -333,6 +367,7 @@
     }
     &__img {
       display: flex;
+     
       > div {
         margin-left: 10px;
         > div {
